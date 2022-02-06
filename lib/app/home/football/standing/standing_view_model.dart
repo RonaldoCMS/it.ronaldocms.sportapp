@@ -11,8 +11,12 @@ class Standing_ViewModel extends ChangeNotifier {
   }
 
  Future<League?> getStading() async {
+   try {
    var response = await HttpRequest.getStading(135, 2021);
-   return response!.response!.first.league;
+   return response?.response?.first.league;
+   } catch(error) {
+     return null;
+   }
  }
 
 }

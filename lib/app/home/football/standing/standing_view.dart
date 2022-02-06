@@ -4,14 +4,13 @@ import 'package:football/http/response_standing.dart';
 import 'package:football/models/standing/league.dart';
 import 'package:football/models/standing/standing.dart';
 import 'package:football/test/test/test.dart';
+import 'package:football/util/http_error_widget.dart';
 import 'package:stacked/stacked.dart';
 
 class Standing_View extends StatelessWidget {
   List<List<DataRow>> data = [];
 
-
-  
-
+  Widget get loading => Center(child: CircularProgressIndicator.adaptive());
 
   @override
   Widget build(BuildContext context) {
@@ -19,32 +18,29 @@ class Standing_View extends StatelessWidget {
       viewModelBuilder: () => Standing_ViewModel(),
       builder: (context, model, child) => Padding(
         padding: EdgeInsets.all(8),
-        child: Column(
-          children: [
-            FutureBuilder(
-              future: model.getStading(),
-              builder: (context, AsyncSnapshot<League?> snapshot) {
-                switch (snapshot.connectionState) {
-                  case ConnectionState.waiting:
-                    return Container();
-                  default:
-                    if (!snapshot.hasData) return Text("ERROR");
-                    return Expanded(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        verticalDirection: VerticalDirection.down,
-                        children: <Widget>[
-                          Expanded(
-                            child: dataBody(snapshot.data!.standings!.first),
-                          )
-                        ],
-                      ),
-                    );
-                }
-              },
-            ),
-          ],
+        child: FutureBuilder(
+          future: model.getStading(),
+          builder: (context, AsyncSnapshot<League?> snapshot) {
+            switch (snapshot.connectionState) {
+              case ConnectionState.waiting:
+                return loading;
+              default:
+                if (!snapshot.hasData)
+                  return Center(child: HttpErrorWidget.HTTP_NOT_HAS_DATA);
+                return Expanded(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    verticalDirection: VerticalDirection.down,
+                    children: <Widget>[
+                      Expanded(
+                        child: dataBody(snapshot.data!.standings!.first),
+                      )
+                    ],
+                  ),
+                );
+            }
+          },
         ),
       ),
     );

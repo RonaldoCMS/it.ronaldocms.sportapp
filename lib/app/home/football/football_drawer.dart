@@ -20,7 +20,7 @@ class Football_Drawer extends StatefulWidget {
 class _Football_DrawerState extends State<Football_Drawer> {
   List<TestText> test = [
     TestText("11dsseCc", "1", "1"),
-    TestText("2", "2", "2"),
+    TestText("12", "2", "2"),
     TestText("3", "3", "3"),
     TestText("4", "4", "4"),
     TestText("5", "5", "5"),
@@ -92,7 +92,7 @@ class _Football_DrawerState extends State<Football_Drawer> {
                             ),
                           )
                           .toList()
-                      : fina!
+                      :  fina!
                           .map(
                             (e) => ListTile(
                               onTap: () => Navigator.pop(context),
@@ -104,7 +104,8 @@ class _Football_DrawerState extends State<Football_Drawer> {
                               ),
                             ),
                           )
-                          .toList()),
+                          .toList(),
+              ),
             ),
           ],
         ),

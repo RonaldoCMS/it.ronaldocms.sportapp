@@ -5,6 +5,7 @@ import 'package:football/app/home/football/player/player_view_model.dart';
 import 'package:football/models/player/player.dart';
 import 'package:football/models/player/player_statistics.dart';
 import 'package:football/models/statistic/statistic.dart';
+import 'package:football/util/http_error_widget.dart';
 import 'package:stacked/stacked.dart';
 
 enum TypePlayer {
@@ -70,29 +71,12 @@ class Player_View extends StatelessWidget {
           case ConnectionState.active:
             return loading;
           default:
-            if (!snapshot.hasData) return Text("ERROR");
+            if (!snapshot.hasData) return Center(child: HttpErrorWidget.HTTP_NOT_HAS_DATA);
             return futureList(viewModel, snapshot, type);
         }
       },
     );
-  }
-
-  /*Widget builderFuture(Player_ViewModel viewModel, AsyncSnapshot snapshot) {
-    if (snapshot.requireData.runtimeType == List<Player_Statistics>) {
-      log("A");
-      return futureList(viewModel, snapshot);
-    } else if (snapshot.requireData.runtimeType == double) {
-      log("B");
-      return futureAssists(viewModel, snapshot);
-    } else if (snapshot.requireData.runtimeType == int) {
-      log("C");
-      return futureYellows(viewModel, snapshot);
-    } else if (snapshot.requireData.runtimeType == String) {
-      log("D");
-      return futureReds(viewModel, snapshot);
-    }
-    return Container();
-  } */
+  } 
 
   String _namePlayer(Player player) => "${player.name}";
   Widget _photoPlayer(Player player) => CircleAvatar(
