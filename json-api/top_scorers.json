@@ -1,0 +1,1915 @@
+{
+    "get": "players/topscorers",
+    "parameters": {
+        "league": "135",
+        "season": "2021"
+    },
+    "errors": [],
+    "results": 20,
+    "paging": {
+        "current": 0,
+        "total": 1
+    },
+    "response": [
+        {
+            "player": {
+                "id": 1863,
+                "name": "C. Immobile",
+                "firstname": "Ciro",
+                "lastname": "Immobile",
+                "age": 32,
+                "birth": {
+                    "date": "1990-02-20",
+                    "place": "Torre Annunziata",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "185 cm",
+                "weight": "78 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/1863.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 487,
+                        "name": "Lazio",
+                        "logo": "https://media.api-sports.io/football/teams/487.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 18,
+                        "lineups": 18,
+                        "minutes": 1548,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.277777",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 6,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 58,
+                        "on": 35
+                    },
+                    "goals": {
+                        "total": 17,
+                        "conceded": 0,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 473,
+                        "key": 14,
+                        "accuracy": 20
+                    },
+                    "tackles": {
+                        "total": 5,
+                        "blocks": null,
+                        "interceptions": 1
+                    },
+                    "duels": {
+                        "total": 149,
+                        "won": 50
+                    },
+                    "dribbles": {
+                        "attempts": 24,
+                        "success": 10,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 21,
+                        "committed": 25
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 2,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30415,
+                "name": "D. Vlahović",
+                "firstname": "Dušan",
+                "lastname": "Vlahović",
+                "age": 22,
+                "birth": {
+                    "date": "2000-01-28",
+                    "place": "Beograd",
+                    "country": "Serbia"
+                },
+                "nationality": "Serbia",
+                "height": "190 cm",
+                "weight": "75 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30415.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 502,
+                        "name": "Fiorentina",
+                        "logo": "https://media.api-sports.io/football/teams/502.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 21,
+                        "minutes": 1862,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.395238",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 4,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 61,
+                        "on": 34
+                    },
+                    "goals": {
+                        "total": 17,
+                        "conceded": 0,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 377,
+                        "key": 21,
+                        "accuracy": 12
+                    },
+                    "tackles": {
+                        "total": 5,
+                        "blocks": 2,
+                        "interceptions": 1
+                    },
+                    "duels": {
+                        "total": 226,
+                        "won": 114
+                    },
+                    "dribbles": {
+                        "attempts": 37,
+                        "success": 20,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 49,
+                        "committed": 19
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 5,
+                        "missed": 1,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30414,
+                "name": "G. Simeone",
+                "firstname": "Giovanni Pablo",
+                "lastname": "Simeone",
+                "age": 27,
+                "birth": {
+                    "date": "1995-07-05",
+                    "place": "Madrid",
+                    "country": "Spain"
+                },
+                "nationality": "Argentina",
+                "height": "180 cm",
+                "weight": "81 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30414.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 504,
+                        "name": "Verona",
+                        "logo": "https://media.api-sports.io/football/teams/504.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 20,
+                        "lineups": 17,
+                        "minutes": 1438,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.200000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 3,
+                        "out": 10,
+                        "bench": 4
+                    },
+                    "shots": {
+                        "total": null,
+                        "on": null
+                    },
+                    "goals": {
+                        "total": 12,
+                        "conceded": 0,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 3,
+                        "key": null,
+                        "accuracy": 2
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": null,
+                        "interceptions": null
+                    },
+                    "duels": {
+                        "total": 1,
+                        "won": null
+                    },
+                    "dribbles": {
+                        "attempts": null,
+                        "success": null,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": null,
+                        "committed": 1
+                    },
+                    "cards": {
+                        "yellow": 4,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 217,
+                "name": "Lautaro Martínez",
+                "firstname": "Lautaro Javier",
+                "lastname": "Martínez",
+                "age": 25,
+                "birth": {
+                    "date": "1997-08-22",
+                    "place": "Bahía Blanca",
+                    "country": "Argentina"
+                },
+                "nationality": "Argentina",
+                "height": "174 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/217.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 505,
+                        "name": "Inter",
+                        "logo": "https://media.api-sports.io/football/teams/505.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 19,
+                        "lineups": 14,
+                        "minutes": 1156,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.978947",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 5,
+                        "out": 14,
+                        "bench": 6
+                    },
+                    "shots": {
+                        "total": 42,
+                        "on": 26
+                    },
+                    "goals": {
+                        "total": 11,
+                        "conceded": 0,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 236,
+                        "key": 15,
+                        "accuracy": 9
+                    },
+                    "tackles": {
+                        "total": 8,
+                        "blocks": null,
+                        "interceptions": 13
+                    },
+                    "duels": {
+                        "total": 124,
+                        "won": 55
+                    },
+                    "dribbles": {
+                        "attempts": 30,
+                        "success": 11,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 26,
+                        "committed": 24
+                    },
+                    "cards": {
+                        "yellow": 4,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 2,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30537,
+                "name": "D. Berardi",
+                "firstname": "Domenico",
+                "lastname": "Berardi",
+                "age": 28,
+                "birth": {
+                    "date": "1994-08-01",
+                    "place": "Cariati Marina",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "183 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30537.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 488,
+                        "name": "Sassuolo",
+                        "logo": "https://media.api-sports.io/football/teams/488.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 19,
+                        "lineups": 19,
+                        "minutes": 1661,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.636842",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 7,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 45,
+                        "on": 29
+                    },
+                    "goals": {
+                        "total": 10,
+                        "conceded": 0,
+                        "assists": 8,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 761,
+                        "key": 44,
+                        "accuracy": 30
+                    },
+                    "tackles": {
+                        "total": 18,
+                        "blocks": 1,
+                        "interceptions": 19
+                    },
+                    "duels": {
+                        "total": 197,
+                        "won": 87
+                    },
+                    "dribbles": {
+                        "attempts": 39,
+                        "success": 16,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 43,
+                        "committed": 32
+                    },
+                    "cards": {
+                        "yellow": 5,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30544,
+                "name": "G. Scamacca",
+                "firstname": "Gianluca",
+                "lastname": "Scamacca",
+                "age": 23,
+                "birth": {
+                    "date": "1999-01-01",
+                    "place": "Roma",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "195 cm",
+                "weight": "85 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30544.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 488,
+                        "name": "Sassuolo",
+                        "logo": "https://media.api-sports.io/football/teams/488.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 11,
+                        "minutes": 1031,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.970000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 10,
+                        "out": 7,
+                        "bench": 10
+                    },
+                    "shots": {
+                        "total": 40,
+                        "on": 20
+                    },
+                    "goals": {
+                        "total": 9,
+                        "conceded": 0,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 241,
+                        "key": 11,
+                        "accuracy": 8
+                    },
+                    "tackles": {
+                        "total": 7,
+                        "blocks": null,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 140,
+                        "won": 55
+                    },
+                    "dribbles": {
+                        "attempts": 12,
+                        "success": 9,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 9,
+                        "committed": 28
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30562,
+                "name": "João Pedro",
+                "firstname": "João Pedro Geraldino",
+                "lastname": "dos Santos Galvão",
+                "age": 30,
+                "birth": {
+                    "date": "1992-03-09",
+                    "place": "Ipatinga",
+                    "country": "Brazil"
+                },
+                "nationality": "Brazil",
+                "height": "184 cm",
+                "weight": "73 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30562.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 490,
+                        "name": "Cagliari",
+                        "logo": "https://media.api-sports.io/football/teams/490.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 22,
+                        "lineups": 22,
+                        "minutes": 1978,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.054545",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 1,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 37,
+                        "on": 25
+                    },
+                    "goals": {
+                        "total": 9,
+                        "conceded": 0,
+                        "assists": 4,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 431,
+                        "key": 17,
+                        "accuracy": 14
+                    },
+                    "tackles": {
+                        "total": 10,
+                        "blocks": 5,
+                        "interceptions": 7
+                    },
+                    "duels": {
+                        "total": 259,
+                        "won": 109
+                    },
+                    "dribbles": {
+                        "attempts": 35,
+                        "success": 15,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 54,
+                        "committed": 43
+                    },
+                    "cards": {
+                        "yellow": 4,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 2495,
+                "name": "D. Zapata",
+                "firstname": "Duván Esteban",
+                "lastname": "Zapata Banguera",
+                "age": 31,
+                "birth": {
+                    "date": "1991-04-01",
+                    "place": "Cali",
+                    "country": "Colombia"
+                },
+                "nationality": "Colombia",
+                "height": "189 cm",
+                "weight": "88 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/2495.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 499,
+                        "name": "Atalanta",
+                        "logo": "https://media.api-sports.io/football/teams/499.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 16,
+                        "lineups": 14,
+                        "minutes": 1204,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.937500",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 8,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": 41,
+                        "on": 25
+                    },
+                    "goals": {
+                        "total": 9,
+                        "conceded": 0,
+                        "assists": 4,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 306,
+                        "key": 23,
+                        "accuracy": 15
+                    },
+                    "tackles": {
+                        "total": 3,
+                        "blocks": 1,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 167,
+                        "won": 61
+                    },
+                    "dribbles": {
+                        "attempts": 46,
+                        "success": 21,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 14,
+                        "committed": 22
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 2763,
+                "name": "M. Pašalić",
+                "firstname": "Mario",
+                "lastname": "Pašalić",
+                "age": 27,
+                "birth": {
+                    "date": "1995-02-09",
+                    "place": "Mainz",
+                    "country": "Germany"
+                },
+                "nationality": "Croatia",
+                "height": "188 cm",
+                "weight": "82 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/2763.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 499,
+                        "name": "Atalanta",
+                        "logo": "https://media.api-sports.io/football/teams/499.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 15,
+                        "minutes": 1219,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": "7.285714",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 6,
+                        "out": 12,
+                        "bench": 6
+                    },
+                    "shots": {
+                        "total": 20,
+                        "on": 14
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": 5,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 619,
+                        "key": 22,
+                        "accuracy": 23
+                    },
+                    "tackles": {
+                        "total": 17,
+                        "blocks": 5,
+                        "interceptions": 16
+                    },
+                    "duels": {
+                        "total": 145,
+                        "won": 72
+                    },
+                    "dribbles": {
+                        "attempts": 18,
+                        "success": 11,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 10,
+                        "committed": 17
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 19194,
+                "name": "T. Abraham",
+                "firstname": "Tammy",
+                "lastname": "Bakumo-Abraham",
+                "age": 25,
+                "birth": {
+                    "date": "1997-10-02",
+                    "place": "London",
+                    "country": "England"
+                },
+                "nationality": "England",
+                "height": "190 cm",
+                "weight": "80 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/19194.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 497,
+                        "name": "AS Roma",
+                        "logo": "https://media.api-sports.io/football/teams/497.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 21,
+                        "minutes": 1770,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.957142",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 0,
+                        "out": 8,
+                        "bench": 0
+                    },
+                    "shots": {
+                        "total": 42,
+                        "on": 24
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": 3,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 383,
+                        "key": 22,
+                        "accuracy": 13
+                    },
+                    "tackles": {
+                        "total": 21,
+                        "blocks": 2,
+                        "interceptions": 4
+                    },
+                    "duels": {
+                        "total": 238,
+                        "won": 115
+                    },
+                    "dribbles": {
+                        "attempts": 48,
+                        "success": 21,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 25,
+                        "committed": 26
+                    },
+                    "cards": {
+                        "yellow": 6,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 790,
+                "name": "E. Džeko",
+                "firstname": "Edin",
+                "lastname": "Džeko",
+                "age": 36,
+                "birth": {
+                    "date": "1986-03-17",
+                    "place": "Sarajevo",
+                    "country": "Bosnia and Herzegovina"
+                },
+                "nationality": "Bosnia and Herzegovina",
+                "height": "193 cm",
+                "weight": "80 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/790.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 505,
+                        "name": "Inter",
+                        "logo": "https://media.api-sports.io/football/teams/505.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 20,
+                        "lineups": 14,
+                        "minutes": 1339,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.215000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 6,
+                        "out": 7,
+                        "bench": 7
+                    },
+                    "shots": {
+                        "total": 40,
+                        "on": 17
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": 3,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 449,
+                        "key": 21,
+                        "accuracy": 17
+                    },
+                    "tackles": {
+                        "total": 5,
+                        "blocks": 4,
+                        "interceptions": 1
+                    },
+                    "duels": {
+                        "total": 165,
+                        "won": 87
+                    },
+                    "dribbles": {
+                        "attempts": 22,
+                        "success": 11,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 23,
+                        "committed": 15
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 51070,
+                "name": "Z. Ibrahimović",
+                "firstname": "Zlatan",
+                "lastname": "Ibrahimović",
+                "age": 41,
+                "birth": {
+                    "date": "1981-10-03",
+                    "place": "Malmö",
+                    "country": "Sweden"
+                },
+                "nationality": "Sweden",
+                "height": "195 cm",
+                "weight": "95 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/51070.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 489,
+                        "name": "AC Milan",
+                        "logo": "https://media.api-sports.io/football/teams/489.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 14,
+                        "lineups": 10,
+                        "minutes": 879,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.385714",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 4,
+                        "out": 3,
+                        "bench": 5
+                    },
+                    "shots": {
+                        "total": 39,
+                        "on": 19
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": 2,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 347,
+                        "key": 20,
+                        "accuracy": 18
+                    },
+                    "tackles": {
+                        "total": null,
+                        "blocks": 1,
+                        "interceptions": 2
+                    },
+                    "duels": {
+                        "total": 86,
+                        "won": 43
+                    },
+                    "dribbles": {
+                        "attempts": 8,
+                        "success": 4,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 8,
+                        "committed": 14
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 1,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 125743,
+                "name": "Beto",
+                "firstname": "Norberto",
+                "lastname": "Bercique Gomes Betuncal",
+                "age": 24,
+                "birth": {
+                    "date": "1998-01-31",
+                    "place": "Lisboa",
+                    "country": "Portugal"
+                },
+                "nationality": "Portugal",
+                "height": "194 cm",
+                "weight": "88 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/125743.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 494,
+                        "name": "Udinese",
+                        "logo": "https://media.api-sports.io/football/teams/494.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 18,
+                        "lineups": 15,
+                        "minutes": 1426,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.982352",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 3,
+                        "out": 2,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": 33,
+                        "on": 18
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 246,
+                        "key": 14,
+                        "accuracy": 10
+                    },
+                    "tackles": {
+                        "total": 15,
+                        "blocks": 1,
+                        "interceptions": 2
+                    },
+                    "duels": {
+                        "total": 269,
+                        "won": 108
+                    },
+                    "dribbles": {
+                        "attempts": 46,
+                        "success": 26,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 16,
+                        "committed": 29
+                    },
+                    "cards": {
+                        "yellow": 1,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30486,
+                "name": "M. Destro",
+                "firstname": "Mattia",
+                "lastname": "Destro",
+                "age": 31,
+                "birth": {
+                    "date": "1991-03-20",
+                    "place": "Ascoli",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "181 cm",
+                "weight": "73 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30486.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 495,
+                        "name": "Genoa",
+                        "logo": "https://media.api-sports.io/football/teams/495.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 14,
+                        "lineups": 13,
+                        "minutes": 1073,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.864285",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 7,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": 23,
+                        "on": 14
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": null,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 205,
+                        "key": 6,
+                        "accuracy": 9
+                    },
+                    "tackles": {
+                        "total": 4,
+                        "blocks": null,
+                        "interceptions": 2
+                    },
+                    "duels": {
+                        "total": 150,
+                        "won": 64
+                    },
+                    "dribbles": {
+                        "attempts": 13,
+                        "success": 7,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 19,
+                        "committed": 19
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30803,
+                "name": "A. Barák",
+                "firstname": "Antonín",
+                "lastname": "Barák",
+                "age": 28,
+                "birth": {
+                    "date": "1994-12-03",
+                    "place": "Pribram",
+                    "country": "Czech Republic"
+                },
+                "nationality": "Czech Republic",
+                "height": "190 cm",
+                "weight": "86 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30803.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 504,
+                        "name": "Verona",
+                        "logo": "https://media.api-sports.io/football/teams/504.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 18,
+                        "lineups": 16,
+                        "minutes": 1458,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": "7.172222",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 2,
+                        "bench": 3
+                    },
+                    "shots": {
+                        "total": 35,
+                        "on": 20
+                    },
+                    "goals": {
+                        "total": 8,
+                        "conceded": 0,
+                        "assists": 4,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 693,
+                        "key": 20,
+                        "accuracy": 31
+                    },
+                    "tackles": {
+                        "total": 14,
+                        "blocks": 4,
+                        "interceptions": 5
+                    },
+                    "duels": {
+                        "total": 181,
+                        "won": 73
+                    },
+                    "dribbles": {
+                        "attempts": 37,
+                        "success": 23,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 13,
+                        "committed": 18
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 4,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 1856,
+                "name": "S. Milinković-Savić",
+                "firstname": "Sergej",
+                "lastname": "Milinković-Savić",
+                "age": 27,
+                "birth": {
+                    "date": "1995-02-27",
+                    "place": "Lleida",
+                    "country": "Spain"
+                },
+                "nationality": "Serbia",
+                "height": "191 cm",
+                "weight": "76 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/1856.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 487,
+                        "name": "Lazio",
+                        "logo": "https://media.api-sports.io/football/teams/487.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 20,
+                        "minutes": 1682,
+                        "number": null,
+                        "position": "Midfielder",
+                        "rating": "7.371428",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 7,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": 36,
+                        "on": 19
+                    },
+                    "goals": {
+                        "total": 7,
+                        "conceded": 0,
+                        "assists": 8,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 1183,
+                        "key": 30,
+                        "accuracy": 46
+                    },
+                    "tackles": {
+                        "total": 36,
+                        "blocks": 6,
+                        "interceptions": 22
+                    },
+                    "duels": {
+                        "total": 275,
+                        "won": 147
+                    },
+                    "dribbles": {
+                        "attempts": 32,
+                        "success": 22,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 25,
+                        "committed": 33
+                    },
+                    "cards": {
+                        "yellow": 4,
+                        "yellowred": 1,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 2299,
+                "name": "Pedro",
+                "firstname": "Pedro Eliezer",
+                "lastname": "Rodríguez Ledesma",
+                "age": 35,
+                "birth": {
+                    "date": "1987-07-28",
+                    "place": "Santa Cruz de Tenerife",
+                    "country": "Spain"
+                },
+                "nationality": "Spain",
+                "height": "169 cm",
+                "weight": "65 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/2299.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 487,
+                        "name": "Lazio",
+                        "logo": "https://media.api-sports.io/football/teams/487.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 22,
+                        "lineups": 21,
+                        "minutes": 1640,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.150000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 1,
+                        "out": 12,
+                        "bench": 1
+                    },
+                    "shots": {
+                        "total": 20,
+                        "on": 13
+                    },
+                    "goals": {
+                        "total": 7,
+                        "conceded": 0,
+                        "assists": 4,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 739,
+                        "key": 26,
+                        "accuracy": 28
+                    },
+                    "tackles": {
+                        "total": 29,
+                        "blocks": 2,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 186,
+                        "won": 85
+                    },
+                    "dribbles": {
+                        "attempts": 47,
+                        "success": 26,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 27,
+                        "committed": 24
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 0,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 30460,
+                "name": "G. Caprari",
+                "firstname": "Gianluca",
+                "lastname": "Caprari",
+                "age": 29,
+                "birth": {
+                    "date": "1993-07-30",
+                    "place": "Roma",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "176 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/30460.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 504,
+                        "name": "Verona",
+                        "logo": "https://media.api-sports.io/football/teams/504.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 20,
+                        "lineups": 18,
+                        "minutes": 1478,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.325000",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 9,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": 21,
+                        "on": 13
+                    },
+                    "goals": {
+                        "total": 7,
+                        "conceded": 0,
+                        "assists": 5,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 675,
+                        "key": 35,
+                        "accuracy": 26
+                    },
+                    "tackles": {
+                        "total": 25,
+                        "blocks": null,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 210,
+                        "won": 101
+                    },
+                    "dribbles": {
+                        "attempts": 57,
+                        "success": 37,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 35,
+                        "committed": 24
+                    },
+                    "cards": {
+                        "yellow": 3,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 1,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 875,
+                "name": "P. Dybala",
+                "firstname": "Paulo Bruno",
+                "lastname": "Exequiel Dybala",
+                "age": 29,
+                "birth": {
+                    "date": "1993-11-15",
+                    "place": "Laguna Larga",
+                    "country": "Argentina"
+                },
+                "nationality": "Argentina",
+                "height": "177 cm",
+                "weight": "75 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/875.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 496,
+                        "name": "Juventus",
+                        "logo": "https://media.api-sports.io/football/teams/496.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 16,
+                        "lineups": 14,
+                        "minutes": 1143,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "7.637500",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 2,
+                        "out": 6,
+                        "bench": 2
+                    },
+                    "shots": {
+                        "total": 53,
+                        "on": 25
+                    },
+                    "goals": {
+                        "total": 7,
+                        "conceded": 0,
+                        "assists": 3,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 620,
+                        "key": 26,
+                        "accuracy": 33
+                    },
+                    "tackles": {
+                        "total": 10,
+                        "blocks": null,
+                        "interceptions": 7
+                    },
+                    "duels": {
+                        "total": 139,
+                        "won": 76
+                    },
+                    "dribbles": {
+                        "attempts": 45,
+                        "success": 29,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 31,
+                        "committed": 10
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 1,
+                        "missed": 1,
+                        "saved": null
+                    }
+                }
+            ]
+        },
+        {
+            "player": {
+                "id": 31094,
+                "name": "A. Pinamonti",
+                "firstname": "Andrea",
+                "lastname": "Pinamonti",
+                "age": 23,
+                "birth": {
+                    "date": "1999-05-19",
+                    "place": "Cles",
+                    "country": "Italy"
+                },
+                "nationality": "Italy",
+                "height": "188 cm",
+                "weight": "72 kg",
+                "injured": false,
+                "photo": "https://media.api-sports.io/football/players/31094.png"
+            },
+            "statistics": [
+                {
+                    "team": {
+                        "id": 511,
+                        "name": "Empoli",
+                        "logo": "https://media.api-sports.io/football/teams/511.png"
+                    },
+                    "league": {
+                        "id": 135,
+                        "name": "Serie A",
+                        "country": "Italy",
+                        "logo": "https://media.api-sports.io/football/leagues/135.png",
+                        "flag": "https://media.api-sports.io/flags/it.svg",
+                        "season": 2021
+                    },
+                    "games": {
+                        "appearences": 21,
+                        "lineups": 17,
+                        "minutes": 1524,
+                        "number": null,
+                        "position": "Attacker",
+                        "rating": "6.933333",
+                        "captain": false
+                    },
+                    "substitutes": {
+                        "in": 4,
+                        "out": 6,
+                        "bench": 4
+                    },
+                    "shots": {
+                        "total": 41,
+                        "on": 17
+                    },
+                    "goals": {
+                        "total": 7,
+                        "conceded": 0,
+                        "assists": 1,
+                        "saves": null
+                    },
+                    "passes": {
+                        "total": 328,
+                        "key": 15,
+                        "accuracy": 10
+                    },
+                    "tackles": {
+                        "total": 9,
+                        "blocks": 2,
+                        "interceptions": 3
+                    },
+                    "duels": {
+                        "total": 212,
+                        "won": 89
+                    },
+                    "dribbles": {
+                        "attempts": 26,
+                        "success": 11,
+                        "past": null
+                    },
+                    "fouls": {
+                        "drawn": 29,
+                        "committed": 13
+                    },
+                    "cards": {
+                        "yellow": 2,
+                        "yellowred": 0,
+                        "red": 0
+                    },
+                    "penalty": {
+                        "won": null,
+                        "commited": null,
+                        "scored": 3,
+                        "missed": 0,
+                        "saved": null
+                    }
+                }
+            ]
+        }
+    ]
+}
