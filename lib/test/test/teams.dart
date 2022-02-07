@@ -4,18 +4,18 @@ import 'away.dart';
 import 'team.dart';
 
 class Teams {
-  Result? home;
-  Result? away;
+  Team? home;
+  Team? away;
 
   Teams({this.home, this.away});
 
   factory Teams.fromJson(Map<String, dynamic> json) => Teams(
         home: json['home'] == null
             ? null
-            : Result.fromJson(json['home'] as Map<String, dynamic>),
+            : Team.fromJson(json['home'] as Map<String, dynamic>),
         away: json['away'] == null
             ? null
-            : Result.fromJson(json['away'] as Map<String, dynamic>),
+            : Team.fromJson(json['away'] as Map<String, dynamic>),
       );
 
   Map<String, dynamic> toJson() => {

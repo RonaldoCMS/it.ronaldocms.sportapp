@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:football/app/home/football/calendar/calendar_view.dart';
 import 'package:football/app/home/football/football_drawer.dart';
 import 'package:football/app/home/football/player/player_view.dart';
 import 'package:football/app/home/football/standing/standing_view.dart';
@@ -29,7 +30,7 @@ class Football_View extends StatelessWidget {
         children: [
           Standing_View(),
           Player_View(),
-          Center(child: Text('BIRDS')),
+          Calendar_View(),
         ],
       );
 

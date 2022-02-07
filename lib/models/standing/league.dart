@@ -7,6 +7,7 @@ class League {
   String? logo;
   String? flag;
   int? season;
+  String? round;
   List<List<Standing>>? standings;
 
   League({
@@ -16,6 +17,7 @@ class League {
     this.logo,
     this.flag,
     this.season,
+    this.round,
     this.standings,
   });
 
@@ -26,6 +28,7 @@ class League {
         logo: json['logo'] as String?,
         flag: json['flag'] as String?,
         season: json['season'] as int?,
+        round: json['round'] as String?,
         standings: (json['standings'] as List<dynamic>?)
             ?.map((e) => (e as List<dynamic>)
                 .map((e) => Standing.fromJson(e as Map<String, dynamic>))

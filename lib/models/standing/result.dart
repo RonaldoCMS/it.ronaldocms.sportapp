@@ -1,6 +1,11 @@
 import 'goals.dart';
 
 class Result {
+  /*id: 500
+name: "Bologna"
+logo: "https://media.api-sports.io/football/teams/500.png"
+winner: true*/
+
   int? played;
   int? win;
   int? draw;

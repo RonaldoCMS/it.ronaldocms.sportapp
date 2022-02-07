@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:football/app/home/football/standing/standing_view_model.dart';
-import 'package:football/http/response_standing.dart';
 import 'package:football/models/standing/league.dart';
 import 'package:football/models/standing/standing.dart';
-import 'package:football/test/test/test.dart';
 import 'package:football/util/http_error_widget.dart';
 import 'package:stacked/stacked.dart';
 
@@ -27,17 +25,16 @@ class Standing_View extends StatelessWidget {
               default:
                 if (!snapshot.hasData)
                   return Center(child: HttpErrorWidget.HTTP_NOT_HAS_DATA);
-                return Expanded(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    verticalDirection: VerticalDirection.down,
-                    children: <Widget>[
-                      Expanded(
-                        child: dataBody(snapshot.data!.standings!.first),
-                      )
-                    ],
-                  ),
+
+                return Column(
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  verticalDirection: VerticalDirection.down,
+                  children: <Widget>[
+                    Expanded(
+                      child: dataBody(snapshot.data!.standings!.first),
+                    )
+                  ],
                 );
             }
           },
@@ -68,29 +65,30 @@ class Standing_View extends StatelessWidget {
           rows: data!
               .map(
                 (standing) => DataRow(
-                    onSelectChanged: (b) {
-                      print(standing.team!.name);
-                    },
-                    cells: [
-                      DataCell(Text("${standing.rank}")),
-                      DataCell(
-                        FractionallySizedBox(
-                          heightFactor: 0.8,
-                          widthFactor: 1,
-                          child: Image.network(
-                            "${standing.team!.logo}",
-                            fit: BoxFit.fitWidth,
-                          ),
+                  onSelectChanged: (b) {
+                    print(standing.team!.name);
+                  },
+                  cells: [
+                    DataCell(Text("${standing.rank}")),
+                    DataCell(
+                      FractionallySizedBox(
+                        heightFactor: 0.8,
+                        widthFactor: 1,
+                        child: Image.network(
+                          "${standing.team!.logo}",
+                          fit: BoxFit.fitWidth,
                         ),
                       ),
-                      DataCell(Text("${standing.all!.played}")),
-                      DataCell(Text(
-                          "${standing.all!.goals!.goalsFor}:${standing.all!.goals!.against}")),
-                      DataCell(Text("${standing.goalsDiff}")),
-                      DataCell(
-                        Text("${standing.points}"),
-                      ),
-                    ]),
+                    ),
+                    DataCell(Text("${standing.all!.played}")),
+                    DataCell(Text(
+                        "${standing.all!.goals!.goalsFor}:${standing.all!.goals!.against}")),
+                    DataCell(Text("${standing.goalsDiff}")),
+                    DataCell(
+                      Text("${standing.points}"),
+                    ),
+                  ],
+                ),
               )
               .toList(),
         ),
