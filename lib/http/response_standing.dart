@@ -1,17 +1,17 @@
 import 'dart:convert';
 
 import 'package:football/http/parameters.dart';
-import 'package:football/models/standing/paging.dart';
 
-import '../models/standing/response.dart';
+import '../repositories/result_stading.dart';
+import 'paging.dart';
 
 class Response_Standing {
   String? test1Get;
-  Parameters? parameters;
+  DefaultParameter? parameters;
   List<dynamic>? errors;
   int? results;
   Paging? paging;
-  List<Response>? response;
+  List<Result_Stading>? response;
 
   Response_Standing({
     this.test1Get,
@@ -27,14 +27,14 @@ class Response_Standing {
         test1Get: json['get'] as String?,
         parameters: json['parameters'] == null
             ? null
-            : Parameters.fromJson(jsonEncode(json['parameters'])),
+            : DefaultParameter.fromJson(jsonEncode(json['parameters'])),
         errors: json['errors'] as List<dynamic>?,
         results: json['results'] as int?,
         paging: json['paging'] == null
             ? null
-            : Paging.fromJson(json['paging'] as Map<String, dynamic>),
+            : Paging.fromMap(json['paging'] as Map<String, dynamic>),
         response: (json['response'] as List<dynamic>?)
-            ?.map((e) => Response.fromJson(e as Map<String, dynamic>))
+            ?.map((e) => Result_Stading.fromJson(e as Map<String, dynamic>))
             .toList(),
       );
 

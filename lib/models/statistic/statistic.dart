@@ -1,6 +1,7 @@
 import 'dart:convert';
 
-import 'package:football/test/test/team.dart';
+import 'package:football/models/fixture/team.dart';
+import 'package:football/models/general/league.dart';
 
 import 'cards.dart';
 import 'dribbles.dart';
@@ -8,7 +9,6 @@ import 'duels.dart';
 import 'fouls.dart';
 import 'games.dart';
 import 'goals.dart';
-import 'league.dart';
 import 'passes.dart';
 import 'penalty.dart';
 import 'shots.dart';
@@ -52,7 +52,7 @@ class Statistics {
             : Team.fromMap(data['team'] as Map<String, dynamic>),
         league: data['league'] == null
             ? null
-            : League.fromMap(data['league'] as Map<String, dynamic>),
+            : League.fromJson(data['league'] as Map<String, dynamic>),
         games: data['games'] == null
             ? null
             : Games.fromMap(data['games'] as Map<String, dynamic>),
@@ -90,7 +90,7 @@ class Statistics {
 
   Map<String, dynamic> toMap() => {
         'team': team?.toMap(),
-        'league': league?.toMap(),
+        'league': league?.toJson(),
         'games': games?.toMap(),
         'substitutes': substitutes?.toMap(),
         'shots': shots?.toMap(),

@@ -2,13 +2,13 @@ import 'dart:convert';
 
 import 'package:collection/collection.dart';
 
-class Parameters {
+class DefaultParameter {
   String? league;
   String? season;
 
-  Parameters({this.league, this.season});
+  DefaultParameter({this.league, this.season});
 
-  factory Parameters.fromMap(Map<String, dynamic> data) => Parameters(
+  factory DefaultParameter.fromMap(Map<String, dynamic> data) => DefaultParameter(
         league: data['league'] as String?,
         season: data['season'] as String?,
       );
@@ -20,20 +20,20 @@ class Parameters {
 
   /// `dart:convert`
   ///
-  /// Parses the string and returns the resulting Json object as [Parameters].
-  factory Parameters.fromJson(String data) {
-    return Parameters.fromMap(json.decode(data) as Map<String, dynamic>);
+  /// Parses the string and returns the resulting Json object as [DefaultParameter].
+  factory DefaultParameter.fromJson(String data) {
+    return DefaultParameter.fromMap(json.decode(data) as Map<String, dynamic>);
   }
 
   /// `dart:convert`
   ///
-  /// Converts [Parameters] to a JSON string.
+  /// Converts [DefaultParameter] to a JSON string.
   String toJson() => json.encode(toMap());
 
   @override
   bool operator ==(Object other) {
     if (identical(other, this)) return true;
-    if (other is! Parameters) return false;
+    if (other is! DefaultParameter) return false;
     final mapEquals = const DeepCollectionEquality().equals;
     return mapEquals(other.toMap(), toMap());
   }

@@ -1,4 +1,4 @@
-import 'result.dart';
+import 'result_team.dart';
 import 'team.dart';
 
 class Standing {
@@ -10,9 +10,9 @@ class Standing {
   String? form;
   String? status;
   String? description;
-  Result? all;
-  Result? home;
-  Result? away;
+  ResultTeam? all;
+  ResultTeam? home;
+  ResultTeam? away;
   DateTime? update;
 
   Standing({
@@ -43,13 +43,13 @@ class Standing {
         description: json['description'] as String?,
         all: json['all'] == null
             ? null
-            : Result.fromJson(json['all'] as Map<String, dynamic>),
+            : ResultTeam.fromJson(json['all'] as Map<String, dynamic>),
         home: json['home'] == null
             ? null
-            : Result.fromJson(json['home'] as Map<String, dynamic>),
+            : ResultTeam.fromJson(json['home'] as Map<String, dynamic>),
         away: json['away'] == null
             ? null
-            : Result.fromJson(json['away'] as Map<String, dynamic>),
+            : ResultTeam.fromJson(json['away'] as Map<String, dynamic>),
         update: json['update'] == null
             ? null
             : DateTime.parse(json['update'] as String),

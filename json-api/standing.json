@@ -16,8 +16,8 @@
                 "id": 135,
                 "name": "Serie A",
                 "country": "Italy",
-                "logo": "https://media.api-sports.io/football/leagues/135.png",
-                "flag": "https://media.api-sports.io/flags/it.svg",
+                "logo": "https:\/\/media.api-sports.io\/football\/leagues\/135.png",
+                "flag": "https:\/\/media.api-sports.io\/flags\/it.svg",
                 "season": 2021,
                 "standings": [
                     [
@@ -26,32 +26,32 @@
                             "team": {
                                 "id": 505,
                                 "name": "Inter",
-                                "logo": "https://media.api-sports.io/football/teams/505.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/505.png"
                             },
                             "points": 53,
-                            "goalsDiff": 36,
+                            "goalsDiff": 35,
                             "group": "Serie A",
-                            "form": "WDWWW",
+                            "form": "LWDWW",
                             "status": "same",
                             "description": "Promotion - Champions League (Group Stage)",
                             "all": {
-                                "played": 22,
+                                "played": 23,
                                 "win": 16,
                                 "draw": 5,
-                                "lose": 1,
+                                "lose": 2,
                                 "goals": {
-                                    "for": 53,
-                                    "against": 17
+                                    "for": 54,
+                                    "against": 19
                                 }
                             },
                             "home": {
-                                "played": 11,
+                                "played": 12,
                                 "win": 9,
                                 "draw": 2,
-                                "lose": 0,
+                                "lose": 1,
                                 "goals": {
-                                    "for": 29,
-                                    "against": 8
+                                    "for": 30,
+                                    "against": 10
                                 }
                             },
                             "away": {
@@ -64,28 +64,28 @@
                                     "against": 9
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 2,
                             "team": {
                                 "id": 492,
                                 "name": "Napoli",
-                                "logo": "https://media.api-sports.io/football/teams/492.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/492.png"
                             },
-                            "points": 49,
-                            "goalsDiff": 27,
+                            "points": 52,
+                            "goalsDiff": 29,
                             "group": "Serie A",
-                            "form": "WWWDL",
+                            "form": "WWWWD",
                             "status": "same",
                             "description": "Promotion - Champions League (Group Stage)",
                             "all": {
-                                "played": 23,
-                                "win": 15,
+                                "played": 24,
+                                "win": 16,
                                 "draw": 4,
                                 "lose": 4,
                                 "goals": {
-                                    "for": 43,
+                                    "for": 45,
                                     "against": 16
                                 }
                             },
@@ -100,38 +100,38 @@
                                 }
                             },
                             "away": {
-                                "played": 11,
-                                "win": 7,
+                                "played": 12,
+                                "win": 8,
                                 "draw": 3,
                                 "lose": 1,
                                 "goals": {
-                                    "for": 21,
+                                    "for": 23,
                                     "against": 8
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 3,
                             "team": {
                                 "id": 489,
                                 "name": "AC Milan",
-                                "logo": "https://media.api-sports.io/football/teams/489.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/489.png"
                             },
-                            "points": 49,
-                            "goalsDiff": 22,
+                            "points": 52,
+                            "goalsDiff": 23,
                             "group": "Serie A",
-                            "form": "DLWWW",
+                            "form": "WDLWW",
                             "status": "same",
                             "description": "Promotion - Champions League (Group Stage)",
                             "all": {
-                                "played": 23,
-                                "win": 15,
+                                "played": 24,
+                                "win": 16,
                                 "draw": 4,
                                 "lose": 4,
                                 "goals": {
-                                    "for": 47,
-                                    "against": 25
+                                    "for": 49,
+                                    "against": 26
                                 }
                             },
                             "home": {
@@ -145,92 +145,47 @@
                                 }
                             },
                             "away": {
-                                "played": 11,
-                                "win": 8,
+                                "played": 12,
+                                "win": 9,
                                 "draw": 2,
                                 "lose": 1,
                                 "goals": {
-                                    "for": 27,
-                                    "against": 14
+                                    "for": 29,
+                                    "against": 15
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 4,
                             "team": {
-                                "id": 499,
-                                "name": "Atalanta",
-                                "logo": "https://media.api-sports.io/football/teams/499.png"
+                                "id": 496,
+                                "name": "Juventus",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/496.png"
                             },
-                            "points": 43,
-                            "goalsDiff": 18,
+                            "points": 45,
+                            "goalsDiff": 15,
                             "group": "Serie A",
-                            "form": "DDWDL",
+                            "form": "WDWWD",
                             "status": "same",
                             "description": "Promotion - Champions League (Group Stage)",
                             "all": {
-                                "played": 22,
-                                "win": 12,
-                                "draw": 7,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 44,
-                                    "against": 26
-                                }
-                            },
-                            "home": {
-                                "played": 10,
-                                "win": 3,
-                                "draw": 4,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 18,
-                                    "against": 15
-                                }
-                            },
-                            "away": {
-                                "played": 12,
-                                "win": 9,
-                                "draw": 3,
-                                "lose": 0,
-                                "goals": {
-                                    "for": 26,
-                                    "against": 11
-                                }
-                            },
-                            "update": "2022-01-23T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 5,
-                            "team": {
-                                "id": 496,
-                                "name": "Juventus",
-                                "logo": "https://media.api-sports.io/football/teams/496.png"
-                            },
-                            "points": 42,
-                            "goalsDiff": 13,
-                            "group": "Serie A",
-                            "form": "DWWDW",
-                            "status": "same",
-                            "description": "Promotion - Europa League (Group Stage)",
-                            "all": {
-                                "played": 23,
-                                "win": 12,
+                                "played": 24,
+                                "win": 13,
                                 "draw": 6,
                                 "lose": 5,
                                 "goals": {
-                                    "for": 34,
+                                    "for": 36,
                                     "against": 21
                                 }
                             },
                             "home": {
-                                "played": 11,
-                                "win": 6,
+                                "played": 12,
+                                "win": 7,
                                 "draw": 2,
                                 "lose": 3,
                                 "goals": {
-                                    "for": 14,
+                                    "for": 16,
                                     "against": 8
                                 }
                             },
@@ -244,25 +199,115 @@
                                     "against": 13
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 5,
+                            "team": {
+                                "id": 499,
+                                "name": "Atalanta",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/499.png"
+                            },
+                            "points": 43,
+                            "goalsDiff": 17,
+                            "group": "Serie A",
+                            "form": "LDDWD",
+                            "status": "same",
+                            "description": "Promotion - Europa League (Group Stage)",
+                            "all": {
+                                "played": 23,
+                                "win": 12,
+                                "draw": 7,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 45,
+                                    "against": 28
+                                }
+                            },
+                            "home": {
+                                "played": 11,
+                                "win": 3,
+                                "draw": 4,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 19,
+                                    "against": 17
+                                }
+                            },
+                            "away": {
+                                "played": 12,
+                                "win": 9,
+                                "draw": 3,
+                                "lose": 0,
+                                "goals": {
+                                    "for": 26,
+                                    "against": 11
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 6,
                             "team": {
-                                "id": 497,
-                                "name": "AS Roma",
-                                "logo": "https://media.api-sports.io/football/teams/497.png"
+                                "id": 487,
+                                "name": "Lazio",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/487.png"
                             },
-                            "points": 38,
+                            "points": 39,
                             "goalsDiff": 10,
                             "group": "Serie A",
-                            "form": "WWLLD",
+                            "form": "WDWLD",
                             "status": "same",
                             "description": "Promotion - Europa Conference League (Qualification)",
                             "all": {
-                                "played": 23,
-                                "win": 12,
+                                "played": 24,
+                                "win": 11,
+                                "draw": 6,
+                                "lose": 7,
+                                "goals": {
+                                    "for": 49,
+                                    "against": 39
+                                }
+                            },
+                            "home": {
+                                "played": 11,
+                                "win": 6,
+                                "draw": 4,
+                                "lose": 1,
+                                "goals": {
+                                    "for": 28,
+                                    "against": 16
+                                }
+                            },
+                            "away": {
+                                "played": 13,
+                                "win": 5,
                                 "draw": 2,
+                                "lose": 6,
+                                "goals": {
+                                    "for": 21,
+                                    "against": 23
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 7,
+                            "team": {
+                                "id": 497,
+                                "name": "AS Roma",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/497.png"
+                            },
+                            "points": 39,
+                            "goalsDiff": 10,
+                            "group": "Serie A",
+                            "form": "DWWLL",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 24,
+                                "win": 12,
+                                "draw": 3,
                                 "lose": 9,
                                 "goals": {
                                     "for": 40,
@@ -270,9 +315,9 @@
                                 }
                             },
                             "home": {
-                                "played": 12,
+                                "played": 13,
                                 "win": 7,
-                                "draw": 2,
+                                "draw": 3,
                                 "lose": 3,
                                 "goals": {
                                     "for": 17,
@@ -289,39 +334,39 @@
                                     "against": 18
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
-                            "rank": 7,
+                            "rank": 8,
                             "team": {
                                 "id": 502,
                                 "name": "Fiorentina",
-                                "logo": "https://media.api-sports.io/football/teams/502.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/502.png"
                             },
                             "points": 36,
-                            "goalsDiff": 11,
+                            "goalsDiff": 8,
                             "group": "Serie A",
-                            "form": "DWLDD",
+                            "form": "LDWLD",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 22,
+                                "played": 23,
                                 "win": 11,
                                 "draw": 3,
-                                "lose": 8,
+                                "lose": 9,
                                 "goals": {
                                     "for": 41,
-                                    "against": 30
+                                    "against": 33
                                 }
                             },
                             "home": {
-                                "played": 10,
+                                "played": 11,
                                 "win": 7,
                                 "draw": 1,
-                                "lose": 2,
+                                "lose": 3,
                                 "goals": {
                                     "for": 29,
-                                    "against": 12
+                                    "against": 15
                                 }
                             },
                             "away": {
@@ -334,74 +379,29 @@
                                     "against": 18
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 8,
-                            "team": {
-                                "id": 487,
-                                "name": "Lazio",
-                                "logo": "https://media.api-sports.io/football/teams/487.png"
-                            },
-                            "points": 36,
-                            "goalsDiff": 7,
-                            "group": "Serie A",
-                            "form": "DWLDW",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 23,
-                                "win": 10,
-                                "draw": 6,
-                                "lose": 7,
-                                "goals": {
-                                    "for": 46,
-                                    "against": 39
-                                }
-                            },
-                            "home": {
-                                "played": 11,
-                                "win": 6,
-                                "draw": 4,
-                                "lose": 1,
-                                "goals": {
-                                    "for": 28,
-                                    "against": 16
-                                }
-                            },
-                            "away": {
-                                "played": 12,
-                                "win": 4,
-                                "draw": 2,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 18,
-                                    "against": 23
-                                }
-                            },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 9,
                             "team": {
                                 "id": 504,
                                 "name": "Verona",
-                                "logo": "https://media.api-sports.io/football/teams/504.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/504.png"
                             },
                             "points": 33,
-                            "goalsDiff": 5,
+                            "goalsDiff": 3,
                             "group": "Serie A",
-                            "form": "WWLWD",
+                            "form": "LWWLW",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 23,
+                                "played": 24,
                                 "win": 9,
                                 "draw": 6,
-                                "lose": 8,
+                                "lose": 9,
                                 "goals": {
                                     "for": 43,
-                                    "against": 38
+                                    "against": 40
                                 }
                             },
                             "home": {
@@ -415,38 +415,38 @@
                                 }
                             },
                             "away": {
-                                "played": 11,
+                                "played": 12,
                                 "win": 3,
                                 "draw": 4,
-                                "lose": 4,
+                                "lose": 5,
                                 "goals": {
                                     "for": 20,
-                                    "against": 21
+                                    "against": 23
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 10,
                             "team": {
                                 "id": 503,
                                 "name": "Torino",
-                                "logo": "https://media.api-sports.io/football/teams/503.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/503.png"
                             },
                             "points": 32,
-                            "goalsDiff": 9,
+                            "goalsDiff": 7,
                             "group": "Serie A",
-                            "form": "DWWLW",
+                            "form": "LDWWL",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 22,
+                                "played": 23,
                                 "win": 9,
                                 "draw": 5,
-                                "lose": 8,
+                                "lose": 9,
                                 "goals": {
                                     "for": 30,
-                                    "against": 21
+                                    "against": 23
                                 }
                             },
                             "home": {
@@ -460,79 +460,34 @@
                                 }
                             },
                             "away": {
-                                "played": 10,
+                                "played": 11,
                                 "win": 2,
                                 "draw": 2,
-                                "lose": 6,
+                                "lose": 7,
                                 "goals": {
                                     "for": 6,
-                                    "against": 10
+                                    "against": 12
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 11,
                             "team": {
-                                "id": 488,
-                                "name": "Sassuolo",
-                                "logo": "https://media.api-sports.io/football/teams/488.png"
-                            },
-                            "points": 29,
-                            "goalsDiff": 1,
-                            "group": "Serie A",
-                            "form": "DLWDL",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 23,
-                                "win": 7,
-                                "draw": 8,
-                                "lose": 8,
-                                "goals": {
-                                    "for": 39,
-                                    "against": 38
-                                }
-                            },
-                            "home": {
-                                "played": 12,
-                                "win": 3,
-                                "draw": 4,
-                                "lose": 5,
-                                "goals": {
-                                    "for": 15,
-                                    "against": 19
-                                }
-                            },
-                            "away": {
-                                "played": 11,
-                                "win": 4,
-                                "draw": 4,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 24,
-                                    "against": 19
-                                }
-                            },
-                            "update": "2022-01-23T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 12,
-                            "team": {
                                 "id": 511,
                                 "name": "Empoli",
-                                "logo": "https://media.api-sports.io/football/teams/511.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/511.png"
                             },
-                            "points": 29,
+                            "points": 30,
                             "goalsDiff": -10,
                             "group": "Serie A",
-                            "form": "LDLDL",
+                            "form": "DLDLD",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 23,
+                                "played": 24,
                                 "win": 8,
-                                "draw": 5,
+                                "draw": 6,
                                 "lose": 10,
                                 "goals": {
                                     "for": 37,
@@ -550,34 +505,79 @@
                                 }
                             },
                             "away": {
-                                "played": 11,
+                                "played": 12,
                                 "win": 5,
-                                "draw": 4,
+                                "draw": 5,
                                 "lose": 2,
                                 "goals": {
                                     "for": 18,
                                     "against": 14
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 12,
+                            "team": {
+                                "id": 488,
+                                "name": "Sassuolo",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/488.png"
+                            },
+                            "points": 29,
+                            "goalsDiff": -3,
+                            "group": "Serie A",
+                            "form": "LDLWD",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 24,
+                                "win": 7,
+                                "draw": 8,
+                                "lose": 9,
+                                "goals": {
+                                    "for": 39,
+                                    "against": 42
+                                }
+                            },
+                            "home": {
+                                "played": 12,
+                                "win": 3,
+                                "draw": 4,
+                                "lose": 5,
+                                "goals": {
+                                    "for": 15,
+                                    "against": 19
+                                }
+                            },
+                            "away": {
+                                "played": 12,
+                                "win": 4,
+                                "draw": 4,
+                                "lose": 4,
+                                "goals": {
+                                    "for": 24,
+                                    "against": 23
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 13,
                             "team": {
                                 "id": 500,
                                 "name": "Bologna",
-                                "logo": "https://media.api-sports.io/football/teams/500.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/500.png"
                             },
-                            "points": 27,
+                            "points": 28,
                             "goalsDiff": -8,
                             "group": "Serie A",
-                            "form": "LLLWL",
+                            "form": "DLLLW",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 22,
+                                "played": 23,
                                 "win": 8,
-                                "draw": 3,
+                                "draw": 4,
                                 "lose": 11,
                                 "goals": {
                                     "for": 29,
@@ -585,9 +585,9 @@
                                 }
                             },
                             "home": {
-                                "played": 11,
+                                "played": 12,
                                 "win": 5,
-                                "draw": 1,
+                                "draw": 2,
                                 "lose": 5,
                                 "goals": {
                                     "for": 16,
@@ -604,14 +604,59 @@
                                     "against": 21
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 14,
                             "team": {
+                                "id": 494,
+                                "name": "Udinese",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/494.png"
+                            },
+                            "points": 27,
+                            "goalsDiff": -3,
+                            "group": "Serie A",
+                            "form": "WDLLW",
+                            "status": "same",
+                            "description": null,
+                            "all": {
+                                "played": 23,
+                                "win": 6,
+                                "draw": 9,
+                                "lose": 8,
+                                "goals": {
+                                    "for": 33,
+                                    "against": 36
+                                }
+                            },
+                            "home": {
+                                "played": 12,
+                                "win": 4,
+                                "draw": 5,
+                                "lose": 3,
+                                "goals": {
+                                    "for": 18,
+                                    "against": 18
+                                }
+                            },
+                            "away": {
+                                "played": 11,
+                                "win": 2,
+                                "draw": 4,
+                                "lose": 5,
+                                "goals": {
+                                    "for": 15,
+                                    "against": 18
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 15,
+                            "team": {
                                 "id": 515,
                                 "name": "Spezia",
-                                "logo": "https://media.api-sports.io/football/teams/515.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/515.png"
                             },
                             "points": 25,
                             "goalsDiff": -18,
@@ -649,83 +694,38 @@
                                     "against": 28
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 15,
-                            "team": {
-                                "id": 494,
-                                "name": "Udinese",
-                                "logo": "https://media.api-sports.io/football/teams/494.png"
-                            },
-                            "points": 24,
-                            "goalsDiff": -5,
-                            "group": "Serie A",
-                            "form": "DLLWW",
-                            "status": "same",
-                            "description": null,
-                            "all": {
-                                "played": 22,
-                                "win": 5,
-                                "draw": 9,
-                                "lose": 8,
-                                "goals": {
-                                    "for": 31,
-                                    "against": 36
-                                }
-                            },
-                            "home": {
-                                "played": 11,
-                                "win": 3,
-                                "draw": 5,
-                                "lose": 3,
-                                "goals": {
-                                    "for": 16,
-                                    "against": 18
-                                }
-                            },
-                            "away": {
-                                "played": 11,
-                                "win": 2,
-                                "draw": 4,
-                                "lose": 5,
-                                "goals": {
-                                    "for": 15,
-                                    "against": 18
-                                }
-                            },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 16,
                             "team": {
                                 "id": 498,
                                 "name": "Sampdoria",
-                                "logo": "https://media.api-sports.io/football/teams/498.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/498.png"
                             },
-                            "points": 20,
-                            "goalsDiff": -12,
+                            "points": 23,
+                            "goalsDiff": -8,
                             "group": "Serie A",
-                            "form": "LLLLD",
+                            "form": "WLLLL",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 23,
-                                "win": 5,
+                                "played": 24,
+                                "win": 6,
                                 "draw": 5,
                                 "lose": 13,
                                 "goals": {
-                                    "for": 29,
+                                    "for": 33,
                                     "against": 41
                                 }
                             },
                             "home": {
-                                "played": 12,
-                                "win": 2,
+                                "played": 13,
+                                "win": 3,
                                 "draw": 3,
                                 "lose": 7,
                                 "goals": {
-                                    "for": 16,
+                                    "for": 20,
                                     "against": 25
                                 }
                             },
@@ -739,74 +739,29 @@
                                     "against": 16
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 17,
                             "team": {
-                                "id": 517,
-                                "name": "Venezia",
-                                "logo": "https://media.api-sports.io/football/teams/517.png"
+                                "id": 490,
+                                "name": "Cagliari",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/490.png"
                             },
-                            "points": 18,
-                            "goalsDiff": -20,
+                            "points": 20,
+                            "goalsDiff": -21,
                             "group": "Serie A",
-                            "form": "LDLLD",
+                            "form": "WDLWW",
                             "status": "same",
                             "description": null,
                             "all": {
-                                "played": 22,
+                                "played": 24,
                                 "win": 4,
-                                "draw": 6,
-                                "lose": 12,
-                                "goals": {
-                                    "for": 20,
-                                    "against": 40
-                                }
-                            },
-                            "home": {
-                                "played": 11,
-                                "win": 2,
-                                "draw": 3,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 13,
-                                    "against": 21
-                                }
-                            },
-                            "away": {
-                                "played": 11,
-                                "win": 2,
-                                "draw": 3,
-                                "lose": 6,
-                                "goals": {
-                                    "for": 7,
-                                    "against": 19
-                                }
-                            },
-                            "update": "2022-01-23T00:00:00+00:00"
-                        },
-                        {
-                            "rank": 18,
-                            "team": {
-                                "id": 490,
-                                "name": "Cagliari",
-                                "logo": "https://media.api-sports.io/football/teams/490.png"
-                            },
-                            "points": 17,
-                            "goalsDiff": -22,
-                            "group": "Serie A",
-                            "form": "DLWWL",
-                            "status": "same",
-                            "description": "Relegation - Serie B",
-                            "all": {
-                                "played": 23,
-                                "win": 3,
                                 "draw": 8,
                                 "lose": 12,
                                 "goals": {
-                                    "for": 22,
-                                    "against": 44
+                                    "for": 24,
+                                    "against": 45
                                 }
                             },
                             "home": {
@@ -820,34 +775,79 @@
                                 }
                             },
                             "away": {
-                                "played": 11,
-                                "win": 1,
+                                "played": 12,
+                                "win": 2,
                                 "draw": 3,
                                 "lose": 7,
                                 "goals": {
-                                    "for": 7,
+                                    "for": 9,
+                                    "against": 24
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
+                        },
+                        {
+                            "rank": 18,
+                            "team": {
+                                "id": 517,
+                                "name": "Venezia",
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/517.png"
+                            },
+                            "points": 18,
+                            "goalsDiff": -22,
+                            "group": "Serie A",
+                            "form": "LLDLL",
+                            "status": "same",
+                            "description": "Relegation - Serie B",
+                            "all": {
+                                "played": 23,
+                                "win": 4,
+                                "draw": 6,
+                                "lose": 13,
+                                "goals": {
+                                    "for": 20,
+                                    "against": 42
+                                }
+                            },
+                            "home": {
+                                "played": 12,
+                                "win": 2,
+                                "draw": 3,
+                                "lose": 7,
+                                "goals": {
+                                    "for": 13,
                                     "against": 23
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "away": {
+                                "played": 11,
+                                "win": 2,
+                                "draw": 3,
+                                "lose": 6,
+                                "goals": {
+                                    "for": 7,
+                                    "against": 19
+                                }
+                            },
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 19,
                             "team": {
                                 "id": 495,
                                 "name": "Genoa",
-                                "logo": "https://media.api-sports.io/football/teams/495.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/495.png"
                             },
-                            "points": 13,
+                            "points": 14,
                             "goalsDiff": -25,
                             "group": "Serie A",
-                            "form": "DLLDD",
+                            "form": "DDLLD",
                             "status": "same",
                             "description": "Relegation - Serie B",
                             "all": {
-                                "played": 23,
+                                "played": 24,
                                 "win": 1,
-                                "draw": 10,
+                                "draw": 11,
                                 "lose": 12,
                                 "goals": {
                                     "for": 20,
@@ -865,23 +865,23 @@
                                 }
                             },
                             "away": {
-                                "played": 12,
+                                "played": 13,
                                 "win": 1,
-                                "draw": 5,
+                                "draw": 6,
                                 "lose": 6,
                                 "goals": {
                                     "for": 12,
                                     "against": 27
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         },
                         {
                             "rank": 20,
                             "team": {
                                 "id": 514,
                                 "name": "Salernitana",
-                                "logo": "https://media.api-sports.io/football/teams/514.png"
+                                "logo": "https:\/\/media.api-sports.io\/football\/teams\/514.png"
                             },
                             "points": 10,
                             "goalsDiff": -39,
@@ -919,7 +919,7 @@
                                     "against": 29
                                 }
                             },
-                            "update": "2022-01-23T00:00:00+00:00"
+                            "update": "2022-02-07T00:00:00+00:00"
                         }
                     ]
                 ]
