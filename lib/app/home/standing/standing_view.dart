@@ -20,30 +20,27 @@ class Standing_View extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<Standing_ViewModel>.reactive(
       viewModelBuilder: () => Standing_ViewModel(),
-      builder: (context, model, child) => Padding(
-        padding: EdgeInsets.all(8),
-        child: FutureBuilder(
-          future: model.getStading(idLeague),
-          builder: (context, AsyncSnapshot<League?> snapshot) {
-            switch (snapshot.connectionState) {
-              case ConnectionState.waiting:
-                return loading;
-              default:
-                if (!snapshot.hasData)
-                  return Center(child: HttpErrorWidget.HTTP_NOT_HAS_DATA);
-                return Column(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  verticalDirection: VerticalDirection.down,
-                  children: <Widget>[
-                    Expanded(
-                      child: dataBody(snapshot.data!.standings!.first),
-                    )
-                  ],
-                );
-            }
-          },
-        ),
+      builder: (context, model, child) => FutureBuilder(
+        future: model.getStading(idLeague),
+        builder: (context, AsyncSnapshot<League?> snapshot) {
+          switch (snapshot.connectionState) {
+            case ConnectionState.waiting:
+              return loading;
+            default:
+              if (!snapshot.hasData)
+                return Center(child: HttpErrorWidget.HTTP_NOT_HAS_DATA);
+              return Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
+                verticalDirection: VerticalDirection.down,
+                children: <Widget>[
+                  Expanded(
+                    child: dataBody(snapshot.data!.standings!.first),
+                  )
+                ],
+              );
+          }
+        },
       ),
     );
   }
@@ -76,11 +73,10 @@ class Standing_View extends StatelessWidget {
                   cells: [
                     DataCell(Text("${standing.rank}")),
                     DataCell(
-                      Center(
-                        child: Image.network(
-                          "${standing.team!.logo}",
-                          fit: BoxFit.fitWidth,
-                        ),
+                      Image.network(
+                        "${standing.team!.logo}",
+                        height: 48,
+                        width: 48,
                       ),
                     ),
                     DataCell(Text("${standing.all!.played}")),

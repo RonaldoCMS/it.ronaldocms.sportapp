@@ -11,11 +11,11 @@ import 'package:football/util/http_costants.dart';
 import 'package:http/http.dart' as http;
 
 class HttpRequest {
-  static bool _noFetchDataFromServer = true;
+  static bool _noFetchDataFromServer = false;
 
   static Future<Response_Standing?> getStading(int idLeague, int season) async {
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/standing.json');
+      var response = await rootBundle.loadString('json/standing.json');
       return Response_Standing.fromJson(jsonDecode(response));
     } else {
       String url =
@@ -34,7 +34,7 @@ class HttpRequest {
     String url =
         "${HttpCostants.URL_TOP_SCORERS}?league=${idLeague}&season=$season";
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/top_scorers.json');
+      var response = await rootBundle.loadString('json/top_scorers.json');
       var test = Response_Player.fromJson(response).response;
       log("${test.toString()}");
       return test;
@@ -54,7 +54,7 @@ class HttpRequest {
         "${HttpCostants.URL_TOP_ASSISTS}?league=${idLeague}&season=$season";
 
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/top_assists.json');
+      var response = await rootBundle.loadString('json/top_assists.json');
       return Response_Player.fromJson(response).response;
     } else {
       try {
@@ -71,7 +71,7 @@ class HttpRequest {
     String url =
         "${HttpCostants.URL_TOP_YELLOW_CARDS}?league=${idLeague}&season=$season";
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/top_yellow.json');
+      var response = await rootBundle.loadString('json/top_yellow.json');
       return Response_Player.fromJson(response).response;
     } else {
       try {
@@ -88,7 +88,7 @@ class HttpRequest {
     String url =
         "${HttpCostants.URL_TOP_RED_CARDS}?league=${idLeague}&season=$season";
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/top_red.json');
+      var response = await rootBundle.loadString('json/top_red.json');
       return Response_Player.fromJson(response).response;
     } else {
       try {
@@ -104,7 +104,7 @@ class HttpRequest {
     String url =
         "${HttpCostants.URL_FIXTURE}?league=${idLeague}&season=$season";
     if (_noFetchDataFromServer) {
-      var response = await rootBundle.loadString('json-api/fixture.json');
+      var response = await rootBundle.loadString('json/fixture.json');
       var body = Response_Fixture.fromJson(jsonDecode(response));
 
       log(body.toString());
@@ -125,7 +125,7 @@ class HttpRequest {
     /* String url =
         "${HttpCostants.URL_FIXTURE}?league=${idLeague}&season=$season"; */
     if (true) {
-      var response = await rootBundle.loadString('json-api/league.json');
+      var response = await rootBundle.loadString('json/league.json');
 
       return Response_Leagues.fromJson(response);
     } else {

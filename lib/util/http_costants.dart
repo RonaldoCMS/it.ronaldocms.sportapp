@@ -1,9 +1,10 @@
 // ignore_for_file: non_constant_identifier_names
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class HttpCostants {
-  static String get HOST => "https://v3.football.api-sports.io";
-  static String get _X_RAPIDAPI_KEY => "x-rapidapi-key";
-  static String get _X_RAPIDAPI_VALUE => "28ecaa97ef6517319b74d8c6d236a7cc";
+  static String get HOST => dotenv.env['HOST']!;
+  static String get _X_RAPIDAPI_KEY => dotenv.env['X_RAPIDAPI_KEY']!;
+  static String get _X_RAPIDAPI_VALUE => dotenv.env['X_RAPIDAPI_VALUE']!;
   static Map<String, String> get HEADER => {_X_RAPIDAPI_KEY: _X_RAPIDAPI_VALUE};
 
   static String get _PLAYER => "players";
