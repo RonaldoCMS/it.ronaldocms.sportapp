@@ -1,40 +1,49 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:football/app/home/home_view_model.dart';
+import 'package:football/app/home/leagues_cubit.dart';
 import 'package:football/http/response_leagues.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:stacked/stacked.dart';
 
 class Home_View extends StatelessWidget {
-  Response_Leagues? league;
-  Home_View({this.league, Key? key}) : super(key: key) {
-    log("${league?.response!.toList().toString()}");
-  }
-
+  Home_View({super.key});
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<Home_ViewModel>.reactive(
-      viewModelBuilder: () => Home_ViewModel(league, 135, context),
-      builder: (context, viewModel, child) {
-        return Scaffold(
-          appBar: _appBar(),
-          drawer: drawer(context, viewModel),
-          bottomNavigationBar: BottomNavigationBar(
-            onTap: (value) => viewModel.changePage(value),
-            currentIndex: viewModel.indexPage,
-            items: [
-              BottomNavigationBarItem(
-                  icon: Icon(Ionicons.football_outline), label: "Stading"),
-              BottomNavigationBarItem(
-                  icon: Icon(Ionicons.footsteps_outline), label: "Player"),
-              BottomNavigationBarItem(
-                  icon: Icon(Ionicons.calendar), label: "Calendar"),
-            ],
-          ),
-          body: Center(child: viewModel.page),
-        );
-      },
+    return BlocProvider(
+      create: (context) => LeaguesCubit()..onFetch(),
+      child: BlocBuilder<LeaguesCubit, Response_Leagues?>(
+        builder: (context, state) {
+          if (state == null) return Scaffold();
+
+          return ViewModelBuilder<Home_ViewModel>.reactive(
+            viewModelBuilder: () => Home_ViewModel(state, 135, context),
+            builder: (context, viewModel, child) {
+              return Scaffold(
+                appBar: _appBar(),
+                drawer: drawer(context, viewModel),
+                bottomNavigationBar: BottomNavigationBar(
+                  onTap: (value) => viewModel.changePage(value),
+                  currentIndex: viewModel.indexPage,
+                  items: [
+                    BottomNavigationBarItem(
+                        icon: Icon(Ionicons.football_outline),
+                        label: "Stading"),
+                    BottomNavigationBarItem(
+                        icon: Icon(Ionicons.footsteps_outline),
+                        label: "Player"),
+                    BottomNavigationBarItem(
+                        icon: Icon(Ionicons.calendar), label: "Calendar"),
+                  ],
+                ),
+                body: Center(child: viewModel.page),
+              );
+            },
+          );
+        },
+      ),
     );
   }
 
@@ -45,13 +54,21 @@ class Home_View extends StatelessWidget {
       );
 
   Container _titleAppBar() => Container(
-        child: Text('Sport API'),
+        child: Text(
+          'Sport API',
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
       );
 
   Builder _leadingAppBar() => Builder(
         builder: (context) => IconButton(
           onPressed: () => Scaffold.of(context).openDrawer(),
-          icon: Icon(Ionicons.menu),
+          icon: Icon(
+            Ionicons.menu,
+            color: Colors.white,
+          ),
         ),
       );
 
